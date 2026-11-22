@@ -1,0 +1,28 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #000;
+  color: #f2efe7;
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main { max-width: 680px; margin: 0 auto; padding: 56px 24px 80px; }
+.brand {
+  font-weight: 900; font-style: italic; font-size: 28px; letter-spacing: -0.02em;
+  color: #fac83a; text-decoration: none;
+}
+.stripes { display: flex; flex-direction: column; margin: 14px 0 40px; }
+.stripes i { display: block; height: 6px; }
+.stripes i:nth-child(1) { background: #3878db; }
+.stripes i:nth-child(2) { background: #fac838; }
+.stripes i:nth-child(3) { background: #f58529; }
+.stripes i:nth-child(4) { background: #e03d2e; }
+h1 { font-size: 34px; line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.02em; }
+h2 { font-size: 21px; margin: 40px 0 8px; }
+h3 { font-size: 17px; margin: 24px 0 4px; }
+p, li { color: #d8d4ca; }
+.lead { font-size: 19px; color: #f2efe7; }
+.meta { color: #8a867d; font-size: 14px; margin-top: -6px; }
+a { color: #fac83a; }
+ul { padding-left: 20px; }
+footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #2a2a2a; color: #8a867d; font-size: 14px; }
